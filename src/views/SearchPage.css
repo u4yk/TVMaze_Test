@@ -1,0 +1,50 @@
+.MuiPaper-root.MuiAppBar-root {
+    padding: 1% 10%;
+    flex-direction: row;
+}
+.MuiTextField-root {
+    width: 70%;
+    flex: 1 1 70%;
+}
+
+.MuiInputBase-root.MuiInput-underline:before,
+.Mui-focused.MuiInputBase-root.MuiInput-underline:before  {
+    border-bottom-color: rgb(198, 238, 253);
+}
+
+.MuiInputBase-root.MuiInput-underline:hover:not(.Mui-disabled):before {
+    border-bottom-color: rgb(190, 200, 209);
+}
+
+.MuiButton-root {
+    width: 10%;
+    flex: 1 1 10%;
+}
+
+.MuiInputBase-root.MuiInput-underline,
+.MuiButton-label {
+    color: #fff;
+}
+
+.show-container {
+    padding: 2% 10%;
+}
+.show-card {
+    height: 4em;
+    width: 100%;
+    margin-bottom: 2em;
+    padding: 0.25em;
+}
+.MuiCardMedia-root.show-thumb {
+    height: 100%;
+    width: 10%;
+    background-size: contain;
+    background-position: 0 center;
+    float: left;
+}
+
+.MuiCardContent-root {
+    width: calc(90% - 32px);
+    float: left;
+    text-align: left;
+}
